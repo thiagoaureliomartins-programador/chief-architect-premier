@@ -1,0 +1,12 @@
+# Exclude build artifacts
+# Default behavior
+*.yml linguist-detectable=false
+*.map linguist-generated
+*.woff2 binary
+
+vendor/* linguist-vendored
+*.html linguist-vendored
+package-lock.json linguist-generated   
+public/** linguist-vendored
+*.rs linguist-detectable
+# eof ee5f7d6c
